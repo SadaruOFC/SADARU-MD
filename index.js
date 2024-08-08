@@ -71,7 +71,7 @@ console.log('SADARU-MD connected to whatsapp ✅')
 
 let up = `SADARU-MD connected successful ✅\n\nPREFIX: ${prefix}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/900435c6d3157c98c3c88.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/ca80ac72e58dc131fd32c.jpg` }, caption: up })
 
 }
 })
