@@ -1,4 +1,5 @@
 # SADARU-MD
-🤖🌟 A simple WhatsApp bot created by Sadaru 🌟🤖
+
+A simple WhatsApp bot created by Sadaru 💻
 
 Coming soon...
