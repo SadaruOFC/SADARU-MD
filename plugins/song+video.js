@@ -19,13 +19,13 @@ const url = deta.url
 let desc= ` 
 *SADARU-MD Song Downloader*
 
- > Title : ${deta.title}
- > Description : ${deta.description}
- > Time : ${deta.timestamp}
- > Ago : ${deta.ago}
- > Views : ${deta.views}
+ >  Title : ${deta.title}
+ >  Description : ${deta.description}
+ >  Time : ${deta.timestamp}
+ >  Ago : ${deta.ago}
+ >  Views : ${deta.views}
 
->Powered by SADARU-MD
+> Powered by SADARU-MD
 
 `
 
@@ -65,13 +65,13 @@ const url = deta.url
 let desc= `
 *SADARU-MD Video Downloader*
 
- > Title : ${deta.title}
- > Description : ${deta.description}
- > Time : ${deta.timestamp}
- > Ago : ${deta.ago}
- > Views : ${deta.views}
+ >  Title : ${deta.title}
+ >  Description : ${deta.description}
+ >  Time : ${deta.timestamp}
+ >  Ago : ${deta.ago}
+ >  Views : ${deta.views}
 
->Powered by SADARU-MD
+> Powered by SADARU-MD
 
 `
 
