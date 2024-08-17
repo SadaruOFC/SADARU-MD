@@ -1,5 +1,5 @@
-# SADARU-MD
+# SADARU-MD Coming Soon...
 
-A simple WhatsApp bot created by Sadaru 💻
+<h2>Owner - Sadaru</h2>
 
-Coming soon...
+<h2>Contact - +94701814946
