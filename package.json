@@ -4,8 +4,8 @@
   "description": "A WhatsApp bot created by Sadaru",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name sadaru-md",
-    "stop": "pm2 stop sadaru-md",
+    "start": "pm2 start index.js --deep-monitoring --attach --name SADARU-MD",
+    "stop": "pm2 stop SADARU-MD",
     "restart": "pm2 restart SADARU-MD"
   },
   "dependencies": {
