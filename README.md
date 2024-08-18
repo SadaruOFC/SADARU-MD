@@ -7,6 +7,8 @@
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=fffff&center=true&vCenter=true&multiline=false&lines=SADARU-MD+WHATSAPP+BOT" alt="">
 </p>
 
+<img src="https://profile-counter.glitch.me/{Sadarulk}/count.svg" alt="Sadarulk :: Visitor's Count" />
+
 
 <h3>Owner Contact ⬇️</h3>
 
