@@ -1,6 +1,6 @@
 
 <a href = "#">
-<img src = "repo-data/IMG-20240818-WA0195.jpg"  height="300">
+<img src = "https://telegra.ph/file/ca80ac72e58dc131fd32c.jpg"  height="300">
 </img>
 
 <p align="center">
