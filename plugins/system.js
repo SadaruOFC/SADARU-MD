@@ -12,7 +12,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let system = `┌───────────────────────
+return reply('┌───────────────────────
 ├ ⏰ *Runtime:-* ${runtime(process.uptime())}
 ├ 📟 *Ram usage:-* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 ├ ⚙️ *Platform:-* ${os.hostname()}
@@ -20,10 +20,7 @@ let system = `┌─────────────────────
 ├ 🧬 *Version:-* 1.0
 └───────────────────────
 
-> SADARU-MD WA BOT 2024
-`
-
-return reply('${system}')
+> SADARU-MD WA BOT 2024')
 
 }catch(e){
 console.log(e)
