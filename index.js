@@ -166,8 +166,8 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 //============================WorkType======================================
 
 if(!isOwner && config.MODE === "private" return
-if(!isOwner && isGroup && config.MODE === "only_inbox" return
-if(!isOwner && !isGroup && config.MODE === "only_groups" return
+if(!isOwner && isGroup && config.MODE === "inbox" return
+if(!isOwner && !isGroup && config.MODE === "group" return
 
 //==========================================================================
 
