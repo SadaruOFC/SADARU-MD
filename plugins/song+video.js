@@ -20,7 +20,7 @@ let desc= ` 🎶 *SADARU-MD AUDIO DOWNLOADER* 🎶
 
 ┌───────────────────
 ├ *ℹ️ `Title:`* ${deta.title}
-├ *🗃️ `Description:`* ${deta.description}
+├ *👤 `Author:`* ${deta.author.name}
 ├ *👁️‍🗨️ `Views:`* ${deta.views}
 ├ *🕘 `Duration:`* ${deta.timestamp}
 ├ *📌 `Ago:`* ${deta.ago}
@@ -65,7 +65,7 @@ let desc= ` 📽️ *SADARU-MD VIDEO DOWNLOADER* 📽️
 
 ┌───────────────────
 ├ *ℹ️ `Title:`* ${deta.title}
-├ *🗃️ `Description:`* ${deta.description}
+├ *👤 `Author:`* ${deta.author.name}
 ├ *👁️‍🗨️ `Views:`* ${deta.views}
 ├ *🕘 `Duration:`* ${deta.timestamp}
 ├ *📌 `Ago:`* ${deta.ago}
