@@ -16,28 +16,27 @@ const search = await yts(q)
 const deta = search.videos[0];
 const url = deta.url 
 
-let desc= ` 
-*SADARU-MD Song Downloader*
+let desc= ` 🎶 *SADARU-MD AUDIO DOWNLOADER* 🎶
 
- •>  *_Title :_* ${deta.title}
- •>  *_Description :_* ${deta.description}
- •>  *_Time :_* ${deta.timestamp}
- •>  *_Ago :_* ${deta.ago}
- •>  *_Views :_* ${deta.views}
+┌───────────────────
+├ *ℹ️ `Title:`* ${deta.title}
+├ *🗃️ `Description:`* ${deta.description}
+├ *👁️‍🗨️ `Views:`* ${deta.views}
+├ *🕘 `Duration:`* ${deta.timestamp}
+├ *📌 `Ago:`* ${deta.ago}
+└───────────────────
 
-> Powered By SADARU-MD
-
-`
+> SADARU-MD WA BOT 2024 `
 
 await conn.sendMessage(from,{image :{ url: deta.thumbnail},caption:desc},{quoted:mek});
 
-//downlod audio+ document
+//downlod audio
 
 let down = await fg.yta(url)
 let downloadUrl = down.dl_url
 
 //send audio message 
-await conn.sendMessage(from,{audio:{url:downloadUrl},mimetype:"audio/mpeg",caption :"Powered By SADARU-MD"},{quoted:mek})
+await conn.sendMessage(from,{audio:{url:downloadUrl},mimetype:"audio/mpeg",caption :"SADARU-MD WA BOT 2024"},{quoted:mek})
   
 
 }catch(e){
@@ -62,28 +61,27 @@ const search = await yts(q)
 const deta = search.videos[0];
 const url = deta.url 
 
-let desc= `
-*SADARU-MD Video Downloader*
+let desc= ` 🎶 *SADARU-MD AUDIO DOWNLOADER* 🎶
 
- •>  *_Title :_* ${deta.title}
- •>  *_Description :_* ${deta.description}
- •>  *_Time :_* ${deta.timestamp}
- •>  *_Ago :_* ${deta.ago}
- •>  *_Views :_* ${deta.views}
+┌───────────────────
+├ *ℹ️ `Title:`* ${deta.title}
+├ *🗃️ `Description:`* ${deta.description}
+├ *👁️‍🗨️ `Views:`* ${deta.views}
+├ *🕘 `Duration:`* ${deta.timestamp}
+├ *📌 `Ago:`* ${deta.ago}
+└───────────────────
 
-> Powered By SADARU-MD
-
-`
+> SADARU-MD WA BOT 2024 `
 
 await conn.sendMessage(from,{image :{ url: deta.thumbnail},caption:desc},{quoted:mek});
 
-//downlod video + document 
+//downlod video 
 
 let down = await fg.ytv(url)
 let downloadUrl = down.dl_url
 
 //send video  message 
-await conn.sendMessage(from,{video:{url:downloadUrl},mimetype:"video/mp4",caption :"> Powered By SADARU-MD"},{quoted:mek})
+await conn.sendMessage(from,{video:{url:downloadUrl},mimetype:"video/mp4",caption :"> SADARU-MD WA BOT 2024"},{quoted:mek})
 
   
 
