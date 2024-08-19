@@ -37,7 +37,7 @@ let down = await fg.yta(url)
 let downloadUrl = down.dl_url
 
 //send audio message 
-await conn.sendMessage(from,{audio:{url:downloadUrl},mimetype:"audio/mpeg",caption :"> Powered By SADARU-MD"},{quoted:mek})
+await conn.sendMessage(from,{audio:{url:downloadUrl},mimetype:"audio/mpeg",caption :"Powered By SADARU-MD"},{quoted:mek})
   
 
 }catch(e){
