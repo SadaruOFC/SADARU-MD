@@ -11,7 +11,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-if(!q) return reply("Please give me a url or title")
+if(!q) return reply("*Please give me a url or title*")
 const search = await yts(q)
 const deta = search.videos[0];
 const url = deta.url 
@@ -19,13 +19,13 @@ const url = deta.url
 let desc= ` 
 *SADARU-MD Song Downloader*
 
- >  Title : ${deta.title}
- >  Description : ${deta.description}
- >  Time : ${deta.timestamp}
- >  Ago : ${deta.ago}
- >  Views : ${deta.views}
+ •>  *_Title :_* ${deta.title}
+ •>  *_Description :_* ${deta.description}
+ •>  *_Time :_* ${deta.timestamp}
+ •>  *_Ago :_* ${deta.ago}
+ •>  *_Views :_* ${deta.views}
 
-> Powered by SADARU-MD
+> Powered By SADARU-MD
 
 `
 
@@ -37,7 +37,7 @@ let down = await fg.yta(url)
 let downloadUrl = down.dl_url
 
 //send audio message 
-await conn.sendMessage(from,{audio:{url:downloadUrl},mimetype:"audio/mpeg",caption :">Powered by SADARU-MD"},{quoted:mek})
+await conn.sendMessage(from,{audio:{url:downloadUrl},mimetype:"audio/mpeg",caption :"> Powered By SADARU-MD"},{quoted:mek})
   
 
 }catch(e){
@@ -57,7 +57,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-if(!q) return reply("Please give me a url or title")
+if(!q) return reply("*Please give me a url or title*")
 const search = await yts(q)
 const deta = search.videos[0];
 const url = deta.url 
@@ -65,13 +65,13 @@ const url = deta.url
 let desc= `
 *SADARU-MD Video Downloader*
 
- >  Title : ${deta.title}
- >  Description : ${deta.description}
- >  Time : ${deta.timestamp}
- >  Ago : ${deta.ago}
- >  Views : ${deta.views}
+ •>  *_Title :_* ${deta.title}
+ •>  *_Description :_* ${deta.description}
+ •>  *_Time :_* ${deta.timestamp}
+ •>  *_Ago :_* ${deta.ago}
+ •>  *_Views :_* ${deta.views}
 
-> Powered by SADARU-MD
+> Powered By SADARU-MD
 
 `
 
@@ -83,7 +83,7 @@ let down = await fg.ytv(url)
 let downloadUrl = down.dl_url
 
 //send video  message 
-await conn.sendMessage(from,{video:{url:downloadUrl},mimetype:"video/mp4",caption :">Powered by SADARU-MD"},{quoted:mek})
+await conn.sendMessage(from,{video:{url:downloadUrl},mimetype:"video/mp4",caption :"> Powered By SADARU-MD"},{quoted:mek})
 
   
 
