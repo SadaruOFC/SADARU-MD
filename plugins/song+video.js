@@ -61,7 +61,7 @@ const search = await yts(q)
 const deta = search.videos[0];
 const url = deta.url 
 
-let desc= ` 🎶 *SADARU-MD VIDEO DOWNLOADER* 🎶
+let desc= ` 📽️ *SADARU-MD VIDEO DOWNLOADER* 📽️
 
 ┌───────────────────
 ├ *ℹ️ `Title:`* ${deta.title}
