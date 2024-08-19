@@ -17,14 +17,14 @@ const deta = search.videos[0];
 const url = deta.url 
 
 let desc= `
-🎶 *SADARU-MD AUDIO DOWNLOADER* 🎶
+🎶 *_SADARU-MD AUDIO DOWNLOADER_* 🎶
 
 ┌───────────────────
-├ *ℹ️ `Title:`* ${deta.title}
-├ *👤 `Author:`* ${deta.author.name}
-├ *👁️‍🗨️ `Views:`* ${deta.views}
-├ *🕘 `Duration:`* ${deta.timestamp}
-├ *📌 `Ago:`* ${deta.ago}
+├ ℹ️ *Title:* ${deta.title}
+├ 👤 *Author:* ${deta.author.name}
+├ 👁️‍🗨️ *Views:* ${deta.views}
+├ 🕘 *Duration:* ${deta.timestamp}
+├ 📌 *Ago:* ${deta.ago}
 └───────────────────
 
 > SADARU-MD WA BOT 2024 
@@ -64,14 +64,14 @@ const deta = search.videos[0];
 const url = deta.url 
 
 let desc= `
-📽️ *SADARU-MD VIDEO DOWNLOADER* 📽️
+📽️ *_SADARU-MD VIDEO DOWNLOADER_* 📽️
 
 ┌───────────────────
-├ *ℹ️ `Title:`* ${deta.title}
-├ *👤 `Author:`* ${deta.author.name}
-├ *👁️‍🗨️ `Views:`* ${deta.views}
-├ *🕘 `Duration:`* ${deta.timestamp}
-├ *📌 `Ago:`* ${deta.ago}
+├ ℹ️ *Title:* ${deta.title}
+├ 👤 *Author:* ${deta.author.name}
+├ 👁️‍🗨️ *Views:* ${deta.views}
+├ 🕘 *Duration:* ${deta.timestamp}
+├ 📌 *Ago:* ${deta.ago}
 └───────────────────
 
 > SADARU-MD WA BOT 2024 
