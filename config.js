@@ -8,6 +8,5 @@ module.exports = {
 SESSION_ID: process.env.SESSION_ID || "x6NDzDbD#4bOJU-cJGxuETewH3IRwZvZSnWwXW0Uzj-iIW1NLTjU",
 ALIVE_IMG: process.env.ALIVE_IMG || "https://telegra.ph/file/ca80ac72e58dc131fd32c.jpg",
 ALIVE_MSG: process.env.ALIVE_MSG || "*Hello there,*\n\n*🙌 I am SADARU-MD WhatsApp User bot.*",
-MENU_MSG: process.env.MENU_MSG || "* .alive\n\n* .menu\n\n* .song\n\n* .video",
-MENU_IMG: process.env.MENU_IMG || "https://telegra.ph/file/ca80ac72e58dc131fd32c.jpg",
+MODE: process.env.MODE || "public",
 };
