@@ -12,13 +12,13 @@ ALIVE_MSG: process.env.ALIVE_MSG || "Hello there 👋
 *🙌 I am SADARU-MD WhatsApp User Bot*
 
 
-🧑‍💻 `Owner:` Sadaru
+🧑‍💻 _Owner:_ Sadaru
 
-📞 `Owner Number:` +94701814946
+📞 _Owner Number:_ +94701814946
 
-📌 `Group Link:` https://chat.whatsapp.com/DTy4uNnbcO6FLkJJ0uIM1y
+📌 _Group Link:_ https://chat.whatsapp.com/DTy4uNnbcO6FLkJJ0uIM1y
 
-🔗 `Github:` https://github.com/Sadarulk/SADARU-MD
+🔗 _Github:_ https://github.com/Sadarulk/SADARU-MD
 
 > SADARU-MD WA BOT 2024",
 };
