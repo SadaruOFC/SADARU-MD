@@ -8,7 +8,7 @@
 </p>
 
 
-<img src="https://profile-counter.glitch.me/{Sadarulk}/count.svg" alt="Sadarulk :: Visitor's Count" />
+<img src="https://profile-counter.glitch.me/{SadaruOFC}/count.svg" alt="SadaruOFC :: Visitor's Count" />
 
 
 <h3>Owner Contact ⬇️</h3>
