@@ -16,7 +16,8 @@ const search = await yts(q)
 const deta = search.videos[0];
 const url = deta.url 
 
-let desc= ` 🎶 *SADARU-MD AUDIO DOWNLOADER* 🎶
+let desc= `
+🎶 *SADARU-MD AUDIO DOWNLOADER* 🎶
 
 ┌───────────────────
 ├ *ℹ️ `Title:`* ${deta.title}
@@ -26,7 +27,8 @@ let desc= ` 🎶 *SADARU-MD AUDIO DOWNLOADER* 🎶
 ├ *📌 `Ago:`* ${deta.ago}
 └───────────────────
 
-> SADARU-MD WA BOT 2024 `
+> SADARU-MD WA BOT 2024 
+`
 
 await conn.sendMessage(from,{image :{ url: deta.thumbnail},caption:desc},{quoted:mek});
 
@@ -61,7 +63,8 @@ const search = await yts(q)
 const deta = search.videos[0];
 const url = deta.url 
 
-let desc= ` 📽️ *SADARU-MD VIDEO DOWNLOADER* 📽️
+let desc= `
+📽️ *SADARU-MD VIDEO DOWNLOADER* 📽️
 
 ┌───────────────────
 ├ *ℹ️ `Title:`* ${deta.title}
@@ -71,7 +74,8 @@ let desc= ` 📽️ *SADARU-MD VIDEO DOWNLOADER* 📽️
 ├ *📌 `Ago:`* ${deta.ago}
 └───────────────────
 
-> SADARU-MD WA BOT 2024 `
+> SADARU-MD WA BOT 2024 
+`
 
 await conn.sendMessage(from,{image :{ url: deta.thumbnail},caption:desc},{quoted:mek});
 
